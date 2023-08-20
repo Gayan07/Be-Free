@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".hotelBookinForm1">
+
+    <ScrollView
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="411dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:background="@drawable/path_10430"
+                android:backgroundTint="#29292B">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/formTopic2"
+                    android:textColor="#F6F6F6"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.742" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/cutomerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/nameHint"
+                android:inputType="textPersonName"
+                android:textColor="#FFFEFE"
+                android:textColorHint="#E4DCDC" />
+
+            <EditText
+                android:id="@+id/customerMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/phoneHint"
+                android:inputType="number"
+                android:textColor="#FFFEFE"
+                android:textColorHint="#FDF9F9" />
+
+            <EditText
+                android:id="@+id/customerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/newAccountEmail"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFDFD"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/customerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="NIC:"
+                android:inputType="text"
+                android:textColor="#FFFCFC"
+                android:textColorHint="#FAFAFA" />
+
+            <EditText
+                android:id="@+id/frmCheckIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/cheid"
+                android:inputType="date"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FAFAFA"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/frmCheckOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/cod"
+                android:inputType="date"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FAFAFA"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/personNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="@string/numP"
+                android:inputType="number"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#C5B2B2" />
+
+            <EditText
+                android:id="@+id/frmPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:hint="100"
+                android:inputType="number|numberDecimal"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                tools:text="100" />
+
+            <EditText
+                android:id="@+id/frmDis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:inputType="number|numberDecimal"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                tools:text="100" />
+
+            <EditText
+                android:id="@+id/hotelName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:foregroundTint="#FFFFFF"
+                android:inputType="text"
+                android:text="@string/defaultHotelName"
+                android:textColor="#BDB8B8"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#29292B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/bookNow"
+            android:layout_width="183dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/requestbooking" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
